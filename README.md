@@ -1,8 +1,8 @@
 # WP3-Second-NLP-Pipeline
 
-Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Processing pipeline" inside the WP3 "". The nlu pipeline is composed by the following modules:
+Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Processing pipeline" and it is the output of task T3.5 “Implementing language-specific NLU pipelines” in work package WP3 “Source message recognition, analysis and understanding” of the SignON Project. The nlu pipeline is composed by the following modules:
 
-![](https://github.com/signon-project/wp3-nlp-pipeline/blob/main/block_diagram.png)
+![alt_text](block_diagram.png)
 
 
 **- TextNormizer.**
