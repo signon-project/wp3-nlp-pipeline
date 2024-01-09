@@ -11,6 +11,23 @@ Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Pr
 
 **- WSD module.**
 
+## Input-Outputs
+
+
+Example of an input:
+```
+{
+  "hello": "world" // This is a comment
+}
+```
+
+Given the previous input, the pipeline outputs json:
+```
+{
+  "hello": "world" // This is a comment
+}
+```
+
 ## Running the Server locally
 
 ```python
