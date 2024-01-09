@@ -3,6 +3,7 @@
 Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Processing pipeline" and it is the output of task T3.5 “Implementing language-specific NLU pipelines” in work package WP3 “Source message recognition, analysis and understanding” of the SignON Project. The nlu pipeline is composed by the following modules:
 
 ![alt_text](block_diagram.png)
+<img align="left" width="100" height="100" src="block_diagram.png">
 
 
 **- TextNormizer.**
