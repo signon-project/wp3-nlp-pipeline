@@ -1,0 +1,21 @@
+{
+  "App": {
+    "sourceURL": "NONE",
+    "sourceText": "Hello Bob, How are you?",
+    "sourceLanguage": "ENG",
+    "sourceMode": "TEXT",
+    "sourceFileFormat": "NONE",
+    "sourceVideoCodec": "NONE",
+    "sourceVideoResolution": "NONE",
+    "sourceVideoFrameRate": -1,
+    "sourceVideoPixelFormat": "NONE",
+    "sourceAudioCodec": "NONE",
+    "sourceAudioChannels": "NONE",
+    "sourceAudioSampleRate": -1,
+    "targetLanguage": "SPA",
+    "targetMode": "AUDIO",
+    "appInstanceID": "instance16",
+    "T0App": "2021-11-16 11:22:12,450",
+    "T1Orchestrator": "2021-11-16 11:22:12,550"
+  }
+}
