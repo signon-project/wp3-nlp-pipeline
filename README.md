@@ -2,8 +2,7 @@
 
 Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Processing pipeline" inside the WP3 "". The nlu pipeline is composed by the following modules:
 
-![alt text]([wp3-nlp-pipeline
-/block_diagram.png)
+![alt text](https://github.com/signon-project/wp3-nlp-pipeline/blob/main/block_diagram.png)
 
 
 **- TextNormizer.**
