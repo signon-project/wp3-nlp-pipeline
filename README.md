@@ -13,12 +13,20 @@ Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Pr
 
 ## Running the Server locally
 
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+
 
 ## Testing the server
-
 Once the API server is running, you can test it with the following code:
 
-
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 
 
