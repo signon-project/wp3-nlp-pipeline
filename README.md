@@ -1,6 +1,7 @@
 # WP3-Second-NLP-Pipeline
 
 Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Processing pipeline" and it is the output of task T3.5 “Implementing language-specific NLU pipelines” in work package WP3 “Source message recognition, analysis and understanding” of the SignON Project. The nlu pipeline is composed by the following modules:
+<br>
 
 <img align="left" height="400" src="block_diagram.png">
 
@@ -41,7 +42,21 @@ Example of an input:
 
 Given the previous input, the pipeline outputs json:
 ```
-{"lin_tags": {"DEPREL": ["intj", "npadvmod", "punct", "advmod", "ROOT", "nsubj", "punct"], "FEATS": ["", "Number=Sing", "PunctType=Comm", "", "Mood=Ind|Tense=Pres|VerbForm=Fin", "Case=Nom|Person=2|PronType=Prs", "PunctType=Peri"], "HEAD": [5, 5, 5, 5, 5, 5, 5], "ID": [1, 2, 3, 4, 5, 6, 7], "LEMMA": ["hello", "Bob", ",", "how", "be", "you", "?"], "NERPOS": ["O", "B", "O", "O", "O", "O", "O"], "NERTYPE": ["", "PERSON", "", "", "", "", ""], "TOKEN": ["Hello", "Bob", ",", "How", "are", "you", "?"], "UPOSTAG": ["INTJ", "PROPN", "PUNCT", "SCONJ", "AUX", "PRON", "PUNCT"]}, "normalised": "Hello Bob , How are you ?", "wsd": ["INTJ", "bob.n.05", "PUNCT", "SCONJ", "AUX", "PRON", "PUNCT"]}
+{
+  "lin_tags" :  {
+                "DEPREL": ["intj", "npadvmod", "punct", "advmod", "ROOT", "nsubj", "punct"],
+                "FEATS": ["", "Number=Sing", "PunctType=Comm", "", "Mood=Ind|Tense=Pres|VerbForm=Fin", "Case=Nom|Person=2|PronType=Prs", "PunctType=Peri"],
+                "HEAD": [5, 5, 5, 5, 5, 5, 5],
+                "ID": [1, 2, 3, 4, 5, 6, 7],
+                "LEMMA": ["hello", "Bob", ",", "how", "be", "you", "?"],
+                "NERPOS": ["O", "B", "O", "O", "O", "O", "O"],
+                "NERTYPE": ["", "PERSON", "", "", "", "", ""],
+                "TOKEN": ["Hello", "Bob", ",", "How", "are", "you", "?"],
+                "UPOSTAG": ["INTJ", "PROPN", "PUNCT", "SCONJ", "AUX", "PRON", "PUNCT"]
+                },
+  "normalised": "Hello Bob , How are you ?",
+  "wsd": ["INTJ", "bob.n.05", "PUNCT", "SCONJ", "AUX", "PRON", "PUNCT"]
+}
 ```
 
 ## Running the Server locally
