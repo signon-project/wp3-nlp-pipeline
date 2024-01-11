@@ -5,13 +5,19 @@ Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Pr
 
 <img align="left" height="400" src="block_diagram.png">
 
-<br><br>
+<br><br><br>
 
 **- TextNormizer.** This module normalise the input text, removes repetitive punctuations and applies spellchecking.
 
+<br>
+
 **- LinguisticTagger.** Annotates linguistic information on the input sentence. It includes part-of-speech, word dependency, name entity recognition and morphological information.
 
+<br>
+
 **- WSD module.** It performs word sense disambiguation on the input sentence using WordNet synsets. 
+
+<br><br><br>
 
 ## Input-Outputs
 
