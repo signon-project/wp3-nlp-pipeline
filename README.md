@@ -17,7 +17,7 @@ Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Pr
 
 **- WSD module.** It performs word sense disambiguation on the input sentence using WordNet synsets. 
 
-<br><br>
+<br><br><br>
 
 ## Input-Outputs
 
