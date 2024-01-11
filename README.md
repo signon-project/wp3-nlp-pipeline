@@ -5,7 +5,7 @@ Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Pr
 <img align="left" height="400" src="block_diagram.png">
 
 
-**- TextNormizer.**
+**- TextNormizer.** This module normalise the input text, removes repetitive punctuations and applies spellchecking.
 
 **- .**
 
