@@ -3,7 +3,7 @@
 Implementation of the NLP pipeline presented in D3.6 "Second Natural Language Processing pipeline" and it is the output of task T3.5 “Implementing language-specific NLU pipelines” in work package WP3 “Source message recognition, analysis and understanding” of the SignON Project. The nlu pipeline is composed by the following modules:
 <br>
 
-<img align="left" height="350" src="block_diagram.png">
+<img align="left" height="350" src="img/block_diagram.png">
 
 <br>
 
@@ -68,11 +68,17 @@ Given the previous input, the pipeline outputs json:
 
 ## Running the Server locally
 
-```python
+The first step is to install the package requeriments using the requirement.txt file and pip. This implementation runs well for python3.8; however, some issues were found when setting up the enviroment when using python3.12. Once the enviroment has been set up, you can run the server from the promtp:
+
+
+```bash
 s = "Python syntax highlighting"
 print s
 ```
 
+The next output informs that the server is running as expected:
+
+<img align="center" height="50" src="img/run.png">
 
 
 ## Testing the server
@@ -82,6 +88,13 @@ Once the API server is running, you can test it with the following code:
 s = "Python syntax highlighting"
 print s
 ```
+Output:
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
 
 
 
