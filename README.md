@@ -77,7 +77,7 @@ python SingON_np.py
 
 The next output informs that the server is running as expected:
 
-<img align="center" height="150" src="img/run.png">
+<img align="center" height="350" src="img/run.png">
 
 
 ## Testing the server
