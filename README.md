@@ -72,7 +72,7 @@ The first step is to install the package requeriments using the requirement.txt 
 
 
 ```bash
-python SingON_np.py
+python SignON_NLP.py
 ```
 
 The next output informs that the server is running as expected:
@@ -84,18 +84,18 @@ The next output informs that the server is running as expected:
 Once the API server is running, you can test it with the following code:
 
 ```python
-s = "Python syntax highlighting"
-print s
+import requests, json
+
+data = {'App': {
+  'sourceText': 'Hello Bob, How are you?',
+  'sourceLanguage': 'ENG'}}
+
+r = requests.post('http://127.0.0.1:5000', json =data)
+
+print(r.json())
 ```
 Output:
 
 ```python
-s = "Python syntax highlighting"
-print s
+{'lin_tags': {'DEPREL': ['intj', 'npadvmod', 'punct', 'advmod', 'ROOT', 'nsubj', 'punct'], 'FEATS': ['', 'Number=Sing', 'PunctType=Comm', '', 'Mood=Ind|Tense=Pres|VerbForm=Fin', 'Case=Nom|Person=2|PronType=Prs', 'PunctType=Peri'], 'HEAD': [5, 5, 5, 5, 5, 5, 5], 'ID': [1, 2, 3, 4, 5, 6, 7], 'LEMMA': ['hello', 'Bob', ',', 'how', 'be', 'you', '?'], 'NERPOS': ['O', 'B', 'O', 'O', 'O', 'O', 'O'], 'NERTYPE': ['', 'PERSON', '', '', '', '', ''], 'TOKEN': ['Hello', 'Bob', ',', 'How', 'are', 'you', '?'], 'UPOSTAG': ['INTJ', 'PROPN', 'PUNCT', 'SCONJ', 'AUX', 'PRON', 'PUNCT']}, 'normalised': 'Hello Bob , How are you ?', 'wsd': ['INTJ', 'bob.n.05', 'PUNCT', 'SCONJ', 'AUX', 'PRON', 'PUNCT']}
 ```
-
-
-
-
-
-
