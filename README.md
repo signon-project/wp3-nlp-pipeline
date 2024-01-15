@@ -72,13 +72,12 @@ The first step is to install the package requeriments using the requirement.txt 
 
 
 ```bash
-s = "Python syntax highlighting"
-print s
+python SingON_np.py
 ```
 
 The next output informs that the server is running as expected:
 
-<img align="center" height="50" src="img/run.png">
+<img align="center" height="150" src="img/run.png">
 
 
 ## Testing the server
