@@ -66,7 +66,7 @@ Given the previous input, the pipeline outputs json:
 }
 ```
 
-## Running the Server locally
+## Running locally from command window
 
 The first step is to install the package requeriments using the requirement.txt file and pip. This implementation runs well for python3.8; however, some issues were found when setting up the enviroment when using python3.12. Once the enviroment has been set up, you can run the server from the promtp:
 
@@ -78,6 +78,13 @@ python SignON_NLP.py
 The next output informs that the server is running as expected:
 
 <img align="center" height="350" src="img/run.png">
+
+## Running locally with docker
+
+```bash
+docker build -t signon/wp3/nlp .
+docker run --name signon_wp3_nlp -d --publish 5000:5000 signon/wp3/nlp
+```
 
 
 ## Testing the server
