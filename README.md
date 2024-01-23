@@ -83,7 +83,7 @@ The next output informs that the server is running as expected:
 
 ```bash
 docker build -t signon/wp3/nlp .
-docker run --name signon_wp3_nlp -d --publish 5000:5000 signon/wp3/nlp
+docker run --name signon_wp3_nlp --publish 5000:5000 signon/wp3/nlp
 ```
 
 
